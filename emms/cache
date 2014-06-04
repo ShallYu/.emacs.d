@@ -1,0 +1,2 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "last.fm" '(*track* (type . lastfm) (name . "last.fm")) emms-cache-db)
