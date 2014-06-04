@@ -75,8 +75,10 @@
 (require 'init-fonts)
 ;(require 'init-growl)
 (require 'init-editing-utils)
-;(require 'init-git)
-(require 'init-git-emacs)
+(require 'init-git)
+;;This may change the color theme
+;;ban it till I can change the prog
+;(require 'init-git-emacs)
 (require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
