@@ -240,10 +240,9 @@
 ;;---------------------------------------------------------
 ;;auto-complate instalization
 ;;---------------------------------------------------------
-;;(add-to-list 'load-path "~/.emacs.d")
-;;(require 'auto-complete-config)
-;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-;;(ac-config-default)
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
 ;;-------pos-tips---------------
 ;;(require 'pos-tip)
 ;;(setq ac-quick-help-prefer-pos-tip t)   
@@ -254,6 +253,6 @@
 ;;(setq ac-fuzzy-enable t)
 
 ;;clang setting
-(setq company-clang-arguments '("-I/usr/include" "-I/usr/include"))
+;(setq company-clang-arguments '("-I/usr/include" "-I/usr/include"))
 
-(put 'downcase-region 'disabled nil)
+;(put 'downcase-region 'disabled nil)
